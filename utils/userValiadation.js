@@ -28,4 +28,4 @@ const userLoginValidate = (req,res,next)=>{
 module.exports = {
     userRegisterValidate,
     userLoginValidate
-}
+} 
