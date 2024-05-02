@@ -12,5 +12,5 @@ routes.post('/login', userLoginValidate, loginUser);
 
 routes.get('/users', ensureAuthenticated, getUsers);
 
-
+ 
 module.exports = routes;
